@@ -37,7 +37,7 @@ namespace TravisCILab
         [Test]
         public void Subtract_ValidPowell()
         {
-            Assert.AreEqual(10, Program.Subtract("20", "3"));
+            Assert.AreEqual(10, Program.Subtract("20", "10"));
             Assert.AreEqual(3, Program.Subtract("5", "2"));
             Assert.AreEqual(8, Program.Subtract("15", "7"));
         }
@@ -63,7 +63,7 @@ namespace TravisCILab
         [Test]
         public void Multiply_ValidPowell()
         {
-            Assert.AreEqual(2, Program.Multiply("1", "5"));
+            Assert.AreEqual(5, Program.Multiply("1", "5"));
             Assert.AreEqual(100, Program.Multiply("4", "25"));
             Assert.AreEqual(60, Program.Multiply("3", "20"));
         }
